@@ -29,6 +29,7 @@ export const useFuzzieStore = create<FuzzieStore>()((set) => ({
   selectedSlackChannels: [],
   setSelectedSlackChannels: (selectedSlackChannels: Option[]) =>
     set({ selectedSlackChannels }),
+  
 }))
 
 
