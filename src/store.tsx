@@ -20,6 +20,7 @@ type FuzzieStore = {
   setSelectedSlackChannels: (selectedSlackChannels: Option[]) => void
 }
 
+
 export const useFuzzieStore = create<FuzzieStore>()((set) => ({
   googleFile: {},
   setGoogleFile: (googleFile: any) => set({ googleFile }),
